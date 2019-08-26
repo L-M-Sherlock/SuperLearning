@@ -1,0 +1,77 @@
+.userinfo {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  width: 85%;
+  box-shadow:gray 0px 0px 1px 0px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+
+.mine-text {
+  color: #aaa;
+  font-size: 16px;
+  margin-left: auto;
+  line-height: 20%;
+}
+
+.course {
+  margin-top: 40rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1rpx solid gray;
+}
+
+.add-text {
+  font-size: 18px;
+  margin-left: 5%;
+  margin-bottom: 5px;
+}
+
+.add-button {
+  color: #2a82e4;
+  text-decoration: underline;
+}
+
+.my-courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.course-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+  margin: 15px 8px 0px 8px;
+  padding: 6px 18px 6px 18px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 0px gray;
+}
+
+.course-detail {
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.start-review {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  width: 94%;
+  margin: 3%;
+  bottom: 0;
+}

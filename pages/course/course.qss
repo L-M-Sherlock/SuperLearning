@@ -1,0 +1,50 @@
+.course-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+  width: 84%;
+  margin: 0px 5px 10px 5px;
+  padding: 6px 18px 6px 18px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 0px gray;
+}
+
+.course-detail {
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.course-readme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    margin-top: 10px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    color: gray;
+}
+
+.update-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    color: gray;
+    width: 100%;
+}
+
+.start-review {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  margin: 3%;
+  bottom: 0;
+}
