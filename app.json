@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/course/course"
+    "pages/course/course",
+    "pages/card/card",
+    "pages/token/token",
+    "pages/mine/mine"
   ],
   "window":{
     "backgroundTextStyle":"light",

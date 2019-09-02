@@ -1,50 +1,62 @@
 .course-table {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 60px;
-  width: 84%;
-  margin: 0px 5px 10px 5px;
-  padding: 6px 18px 6px 18px;
-  border-radius: 15px;
-  box-shadow: 0px 0px 5px 0px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120rpx;
+    width: 84%;
+    margin: 0 10rpx 20rpx 10rpx;
+    padding: 6px 18px 6px 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 10rpx 0 gray;
 }
 
 .course-detail {
-  font-size: 14px;
-  color: gray;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .course-readme {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20px 0 20px;
-    margin-top: 10px;
-    margin-bottom: 36px;
+    padding: 0 40rpx 0 40rpx;
+    margin-top: 20rpx;
+    margin-bottom: 72rpx;
     font-size: 14px;
     color: gray;
+    width: 700rpx;
 }
 
 .update-log {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 36px;
+    align-items: flex-start;
+    padding: 0 40rpx 0 40rpx;
+    margin-top: 20rpx;
+    margin-bottom: 72rpx;
     font-size: 14px;
     color: gray;
-    width: 100%;
+    width: 700rpx;
+    border-top: 1rpx solid gray;
 }
 
 .start-review {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 94%;
-  margin: 3%;
-  bottom: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    margin: 3%;
+    bottom: 0;
+}
+
+.review-button {
+    width: 96%;
+    height: 96rpx;
+    line-height: 96rpx;
+    background-color: #2980B9;
+    color: white;
+    font-size: 36rpx;
 }

@@ -4,7 +4,14 @@
   flex-direction: row;
   align-items: center;
   width: 85%;
-  box-shadow:gray 0px 0px 1px 0px;
+  box-shadow:gray 0 0 2rpx 0;
+}
+
+.user-table {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }
 
 .userinfo-avatar {
@@ -16,7 +23,7 @@
 
 .mine-text {
   color: #aaa;
-  font-size: 16px;
+  font-size: 32rpx;
   margin-left: auto;
   line-height: 20%;
 }
@@ -31,13 +38,18 @@
 }
 
 .add-text {
-  font-size: 18px;
+  font-size: 36rpx;
   margin-left: 5%;
-  margin-bottom: 5px;
+  margin-bottom: 10rpx;
 }
 
 .add-button {
   color: #2a82e4;
+  border-radius: 0;
+  margin-left: 10rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  margin-bottom: 4rpx;
   text-decoration: underline;
 }
 
@@ -52,15 +64,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 60px;
-  margin: 15px 8px 0px 8px;
-  padding: 6px 18px 6px 18px;
-  border-radius: 15px;
-  box-shadow: 0px 0px 5px 0px gray;
+  height: 100rpx;
+  margin: 30rpx 16rpx 0 16rpx;
+  padding: 12rpx 36rpx 12rpx 36rpx;
+  border-radius: 32rpx;
+  box-shadow: 0 0 10rpx 0 gray;
 }
 
 .course-detail {
-  font-size: 14px;
+  font-size: 28rpx;
   color: gray;
   display: flex;
   flex-direction: row;
@@ -70,8 +82,16 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-
   width: 94%;
   margin: 3%;
   bottom: 0;
+}
+
+.review-button {
+  width: 100%;
+  height: 96rpx;
+  line-height: 96rpx;
+  background-color: #2980B9;
+  color: white;
+  font-size: 36rpx;
 }

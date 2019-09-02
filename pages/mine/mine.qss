@@ -1,0 +1,35 @@
+/* pages/mine/mine.wxss */
+.head_image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.top_image {
+    position: absolute;
+    top:-100rpx;
+    height: 400rpx;
+    width: 750rpx;
+    border-radius: 0 0 750rpx 750rpx;
+}
+.head_portrait {
+    position: absolute;
+    height: 140rpx;
+    width: 140rpx;
+    left: 305rpx;
+    top: 165rpx;
+    border-radius: 600rpx 600rpx 600rpx 600rpx;
+}
+.ID {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top:300rpx;
+}
+.login {
+    font-size: 28rpx;
+}
+.body {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}

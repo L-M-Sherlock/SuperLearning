@@ -1,0 +1,153 @@
+.container {
+    justify-content: space-between;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 750rpx;
+}
+
+.top-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100rpx;
+    padding: 10rpx 20rpx 10rpx 20rpx;
+    background-color: #3498DB;
+}
+
+.top-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120rpx;
+    line-height: 0rpx;
+}
+
+.top-title {
+    font-size: 36rpx;
+    color: #ffffff;
+}
+
+.top-expected-time {
+    font-size: 32rpx;
+    color: #e5e5e5;
+}
+
+.top-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200rpx;
+}
+
+.tools-img {
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.is-due {
+    background-color: #AED6F1;
+    height: 40rpx;
+    font-size: 28rpx;
+    padding-left: 20rpx;
+    line-height: 40rpx;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-card {
+    display: flex;
+    justify-content: center;
+    width: 700rpx;
+    margin-top: 30rpx;
+    padding: 10rpx;
+    border-radius: 25rpx;
+    box-shadow: 0 4rpx 10rpx;
+    font-size: 14px;
+}
+
+.bottom-grade {
+    position: absolute;
+    bottom: 20rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-title {
+    display: flex;
+    flex-direction: row;
+    height: 30rpx;
+}
+
+.bottom-button {
+    display: flex;
+    flex-direction: row;
+    height: 100rpx;
+    width: 720rpx;
+}
+
+.bottom-line {
+    width: 280rpx;
+    height: 3px;
+    background-color: gray;
+}
+
+.low-grade {
+    width: 220rpx;
+    background-color: #21618c;
+    color: #ffffff;
+    line-height: 100rpx;
+    font-size: 36rpx;
+}
+
+.medium-grade {
+    width: 220rpx;
+    background-color: #3498db;
+    color: #d6eaf8;
+    line-height: 100rpx;
+    font-size: 36rpx;
+}
+
+.high-grade {
+    width: 220rpx;
+    background-color: #d6eaf8;
+    color: #21618c;
+    line-height: 100rpx;
+    font-size: 36rpx;
+}
+
+.wrong-grade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350rpx;
+    background-color: #d43030;
+    color: #ffffff;
+    font-size: 36rpx;
+    line-height: 30rpx;
+}
+
+.right-grade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350rpx;
+    background-color: #28b463;
+    color: #ffffff;
+    font-size: 36rpx;
+    line-height: 30rpx;
+}
+
+.grade-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

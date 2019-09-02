@@ -1,0 +1,29 @@
+.title {
+    margin-bottom: 40rpx;
+}
+
+.input-token {
+    width: 600rpx;
+    height: 180rpx;
+    box-shadow: 0 4rpx 8rpx;
+    margin-bottom: 40rpx;
+}
+
+.input{
+    height: 90rpx;
+    font-size: 32rpx;
+    color: #999999;
+    padding: 0 10rpx 0 10rpx;
+    border-bottom: 1rpx solid gray;
+}
+
+.firm-token {
+    height: 88rpx;
+    line-height: 90rpx;
+    font-size: 36rpx;
+}
+
+.tip {
+    font-size: 28rpx;
+    color: #999999;
+}
