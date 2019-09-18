@@ -6,7 +6,12 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"remoteDebugLogEnable": false,
+		"uploadWithSourceMap": true,
+		"useAlphaLib": true,
+		"nodeModules": true,
+		"uglifyFileName": true
 	},
 	"compileType": "miniprogram",
 	"createTime": 1566700266623,
@@ -17,8 +22,13 @@
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"qqappid": "1108100302",
-	"projectname": "SuperLearning",
+	"qqappid": "1109897378",
+	"projectname": "%E8%AE%B0%E4%B9%8B",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
 	"condition": {
 		"search": {
 			"current": -1,
