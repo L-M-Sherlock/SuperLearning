@@ -61,7 +61,7 @@ Page({
                 this.setData({
                     userInfo: res.userInfo,
                     hasUserInfo: true
-                })
+                });
             }
         } else {
             // 在没有 open-type=getUserInfo 版本的兼容处理
@@ -71,7 +71,7 @@ Page({
                     this.setData({
                         userInfo: res.userInfo,
                         hasUserInfo: true
-                    })
+                    });
                 }
             })
         }
@@ -82,6 +82,6 @@ Page({
         this.setData({
             userInfo: e.detail.userInfo,
             hasUserInfo: true
-        })
-    }
+        });
+    },
 });
