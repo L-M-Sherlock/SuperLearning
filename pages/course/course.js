@@ -29,7 +29,7 @@ Page({
         ]
     },
     goToCard: function () {
-        qq.navigateTo({
+        wx.navigateTo({
             url: '../card/card'
         })
     },

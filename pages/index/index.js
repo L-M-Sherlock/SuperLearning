@@ -6,7 +6,7 @@ Page({
     data: {
         userInfo: {},
         hasUserInfo: false,
-        canIUse: qq.canIUse('button.open-type.getUserInfo'),
+        canIUse: wx.canIUse('button.open-type.getUserInfo'),
         courses: [
             {
                 courseTitle: "政治易混易错点",
@@ -29,22 +29,22 @@ Page({
     },
     //事件处理函数
     goToToken: function () {
-        qq.navigateTo({
+        wx.navigateTo({
             url: '../token/token'
         })
     },
     goToCourse: function () {
-        qq.navigateTo({
+        wx.navigateTo({
             url: '../course/course'
         })
     },
     goToCard: function () {
-        qq.navigateTo({
+        wx.navigateTo({
             url: '../card/card'
         })
     },
     goToMine: function () {
-        qq.navigateTo({
+        wx.navigateTo({
             url: '../mine/mine'
         })
     },
@@ -65,7 +65,7 @@ Page({
             }
         } else {
             // 在没有 open-type=getUserInfo 版本的兼容处理
-            qq.getUserInfo({
+            wx.getUserInfo({
                 success: res => {
                     app.globalData.userInfo = res.userInfo;
                     this.setData({
